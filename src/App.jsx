@@ -12,8 +12,8 @@ function App() {
     <>
      <BrowserRouter>
       <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/characterDetail/:slug" element={<CharacterDetail />} />
+            <Route path="/rickyandmorty/" element={<Home />} />
+            <Route path="/rickyandmorty/characterDetail/:slug" element={<CharacterDetail />} />
       </Routes>
     </BrowserRouter>
     </>
